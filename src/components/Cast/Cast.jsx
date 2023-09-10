@@ -30,6 +30,11 @@ const Cast = () => {
         cast.map(({ original_name, profile_path, character, id }) => {
           return (
             <div key={id}>
+              <img
+                src={`https://image.tmdb.org/t/p/w200/${profile_path}`}
+                alt={original_name}
+                width={200}
+              />
               <h3>{original_name}</h3>
               <p>{character !== '' ? character : 'no data'}</p>
             </div>
