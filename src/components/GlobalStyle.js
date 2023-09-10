@@ -10,9 +10,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: Aliceblue; 
-    padding-top: 80px;
-    padding-bottom: 80px
-
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px 
   }
   
   code {
